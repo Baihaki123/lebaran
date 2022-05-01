@@ -15,7 +15,6 @@ Iya.addEventListener("click", function () {
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
         Text.innerHTML = "Saya dan segenap keluarga";
-        Image.setAttribute("src", "https://c.tenor.com/uygoMR-ATWgAAAAj/happy-ied-mubarak-ied-mubarak.gif");
         Text.classList.add('text-animate');
     }else if (Iya.value == 3) {
         Text.classList.remove('text-animate');
